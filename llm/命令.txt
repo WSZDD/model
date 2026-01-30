@@ -1,0 +1,4 @@
+hdc file send model.gguf /data/app/el2/100/base/com.example.mnn/haps/entry/files/model.gguf
+
+使用的千问2.5-0.5b模型，源自https://www.modelscope.cn/models/Qwen/Qwen2.5-0.5B-Instruct-GGUF/file/view/master/qwen2.5-0.5b-instruct-q4_k_m.gguf?status=2
+

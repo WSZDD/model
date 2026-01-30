@@ -1,0 +1,8 @@
+hdc file send sherpa_tts_model /data/app/el2/100/base/com.example.mnn/haps/entry/files/ 
+
+hdc shell
+# chmod -R 777 /data/app/el2/100/base/com.example.mnn/haps/entry/files/
+
+模型来源：
+ncnn-vits-piper-zh_CN-huayan-medium，源自https://github.com/k2-fsa/sherpa-ncnn/releases/download/tts-models/ncnn-vits-piper-zh_CN-huayan-medium.tar.bz2
+espeak-ng-data源自https://github.com/espeak-ng/espeak-ng/releases/download/1.51/espeak-release-signed.apk

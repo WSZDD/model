@@ -1,0 +1,16 @@
+进入sherpa-ncnn-streaming-zipformer-zh-14M-2023-02-23文件夹
+
+hdc shell mkdir -p /data/app/el2/100/base/com.example.mnn/haps/entry/files/sherpa_model
+
+# 3. 推送 7 个 Sherpa 核心文件 (ASR)
+hdc file send tokens.txt /data/app/el2/100/base/com.example.mnn/haps/entry/files/sherpa_model/
+hdc file send encoder_jit_trace-pnnx.ncnn.bin /data/app/el2/100/base/com.example.mnn/haps/entry/files/sherpa_model/
+hdc file send encoder_jit_trace-pnnx.ncnn.param /data/app/el2/100/base/com.example.mnn/haps/entry/files/sherpa_model/
+hdc file send decoder_jit_trace-pnnx.ncnn.bin /data/app/el2/100/base/com.example.mnn/haps/entry/files/sherpa_model/
+hdc file send decoder_jit_trace-pnnx.ncnn.param /data/app/el2/100/base/com.example.mnn/haps/entry/files/sherpa_model/
+hdc file send joiner_jit_trace-pnnx.ncnn.bin /data/app/el2/100/base/com.example.mnn/haps/entry/files/sherpa_model/
+hdc file send joiner_jit_trace-pnnx.ncnn.param /data/app/el2/100/base/com.example.mnn/haps/entry/files/sherpa_model/
+
+hdc shell ls -l /data/app/el2/100/base/com.example.mnn/haps/entry/files/sherpa_model/
+
+模型来源：https://github.com/k2-fsa/sherpa-ncnn/releases/download/models/sherpa-ncnn-streaming-zipformer-zh-14M-2023-02-23.tar.bz2
